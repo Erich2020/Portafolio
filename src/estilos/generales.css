@@ -1,0 +1,418 @@
+@media (max-width:640px) {
+    body {
+        min-width: 440px;
+    }
+    #contenedor-second {
+        max-width: auto;
+        display: inline-block;
+        position: relative;
+        padding: 1em;
+    }
+    footer {
+        text-align: center;
+    }
+    #contenedor-principal {
+        max-width: auto;
+        display: inline-block;
+    }
+    .tarjeta-proyectos {
+        max-width: 160px;
+        max-height: 120px;
+        position: relative;
+        display: inline-block;
+        padding-top: .05em;
+        padding-bottom: 1em;
+    }
+    #proyectos-seccion {
+        font-size-adjust: 1em;
+        position: relative;
+    }
+    #contenedor-bienvenida {
+        max-width: auto;
+        position: relative;
+    }
+    #h1-saludo {
+        font-size: 1em;
+    }
+    #h1-nombre {
+        font-size: 1em;
+    }
+    #h1-saludo,
+    #h1-nombre {
+        text-align: left;
+    }
+    #h3-giro {
+        font-size-adjust: 1.5em;
+    }
+    #h3-vision {
+        font-size-adjust: 1.5em;
+    }
+    #h2-titulo {
+        color: royalblue;
+        font-size: 2em;
+    }
+    .imagen-proyecto {
+        max-width: 160px;
+        max-height: 120px;
+    }
+    #logo-el {
+        display: inline;
+        font-size-adjust: 1.6em;
+        letter-spacing: .18em;
+    }
+    .seccion-proyectos {
+        min-width: 360px;
+        min-height: auto;
+    }
+    .content-descripcion-proyecto {
+        height: 100px;
+        overflow: auto;
+    }
+}
+
+@media(min-width:641px) {
+    #contenedor-second {
+        display: inline-block;
+        position: relative;
+        padding: 1em;
+    }
+    #contenedor-principal {
+        display: inline-block;
+    }
+    .tarjeta-proyectos {
+        position: relative;
+        display: inline-block;
+        padding-top: .1em;
+        padding-bottom: 1.2em;
+    }
+    .imagen-proyecto {
+        width: 240px;
+        height: 200px;
+    }
+    .sm {
+        width: 50px;
+        height: 50px;
+    }
+    .sm:hover,
+    .sm:focus {
+        width: 60px;
+        height: 60px;
+    }
+    .content-descripcion-proyecto {
+        height: 250px;
+        overflow: scroll;
+    }
+}
+
+@font-face {
+    font-family: "AvantGarde";
+    src: url("avant-garde.woff") format("woff");
+}
+
+body {
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: RGB(0.26.50.24);
+    font-family: "AvantGarde", serif;
+}
+
+.asideRedes {
+    width: 50px;
+    height: 320px;
+    position: fixed;
+    display: inline;
+    font-size: .7em;
+    margin-top: 11em;
+    margin-left: 1vw;
+    z-index: 100;
+}
+
+#contenedor-second {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 1em;
+}
+
+#contenedor-principal {
+    display: inline-block;
+    position: relative;
+}
+
+.tarjeta-proyectos {
+    width: 240px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: .1em;
+    padding-bottom: 1.5em;
+    transition: background-color 1s;
+    color: royalblue;
+}
+
+.tarjeta-proyectos:hover,
+.tarjeta-proyectos:focus,
+.contacto-footer:hover,
+.contacto-footer:focus {
+    background-color: white;
+    /*rgb(159, 209, 236, 186)*/
+    color: RGB(0.26.50.24);
+    box-shadow: 5px 5px 5px gray;
+}
+
+#proyectos-seccion {
+    text-align: center;
+    color: RGB(0.26.50.24);
+    font-size: 1.3em;
+    position: relative;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: auto;
+}
+
+#contenedor-bienvenida {
+    margin: auto;
+    width: auto;
+    height: 80%;
+    text-align: center;
+    position: relative;
+}
+
+#h1-saludo {
+    font-size: calc(1em + 6vw);
+    color: rgb(194, 78, 97, 128);
+}
+
+#h1-nombre {
+    font-size: calc(1em + 6vw);
+    text-align: center;
+    color: white;
+    text-shadow: rgba(65, 105, 225, 0.80);
+    -webkit-text-stroke: rgb(159, 209, 236, .8) 2px;
+}
+
+#h1-saludo,
+#h1-nombre {
+    text-align: left;
+    letter-spacing: .1em;
+    margin: 0;
+    margin-left: 1.5em;
+}
+
+#h3-giro {
+    margin: 0;
+    color: rgb(194, 78, 97, 128);
+    font-size: calc (1.5em + 2vw);
+    text-decoration: underline;
+}
+
+#h3-vision {
+    margin: 0;
+    color: rgb(194, 78, 97, 128);
+    font-size: calc (1.5em + 2vw);
+}
+
+#h2-titulo {
+    color: royalblue;
+    font-size: calc (1.8em + 3vw);
+    letter-spacing: .3em;
+}
+
+.seccion-proyectos {
+    display: none;
+    width: 80vw;
+    height: 640px;
+    position: fixed;
+    background-color: rgba(65, 105, 225, 0.80);
+    margin: 3em;
+    z-index: 100;
+    overflow: scroll;
+    animation: ejemplo 2s ease-in-out;
+}
+
+@keyframes ejemplo {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+        ;
+    }
+}
+
+.seccion-proyectos::-webkit-scrollbar,
+.content-descripcion-proyecto::-webkit-scrollbar {
+    -webkit-appearance: inherit;
+}
+
+.seccion-proyectos::-webkit-scrollbar:vertical,
+.content-descripcion-proyecto::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+.seccion-proyectos::-webkit-scrollbar-button:increment,
+.seccion-proyectos::-webkit-scrollbar-button:decrement,
+.content-descripcion-proyecto::-webkit-scrollbar-button:increment,
+.content-descripcion-proyecto::-webkit-scrollbar-button:decrement {
+    display: none;
+}
+
+.seccion-proyectos::-webkit-scrollbar:horizontal,
+.content-descripcion-proyecto::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.seccion-proyectos::-webkit-scrollbar-thumb,
+.content-descripcion-proyecto::-webkit-scrollbar-thumb {
+    background-color: #c22b2b;
+    border-radius: 20px;
+    border: 2px solid #4593e2;
+}
+
+.seccion-proyectos::-webkit-scrollbar-track,
+.content-descripcion-proyecto::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.cerrar-seccion {
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    position: fixed;
+}
+
+.cerrar-seccion:hover,
+.cerrar-seccion:focus {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.nombre-proyecto {
+    width: auto;
+    height: auto;
+    font-family: "AvantGarde", serif;
+    font-style: oblique;
+    font-size: 2.5em;
+    -webkit-text-stroke: black 1px;
+}
+
+.contenedor-principal-proyecto {
+    height: auto;
+    margin: 1em;
+    display: inline;
+}
+
+.titulo-proyecto {
+    font-size: 1.1em;
+    margin: 0;
+    padding: .5em;
+    color: rgb(194, 78, 97, 128);
+    font-size: 1.5em;
+}
+
+.contenedor-presentacion-proeycto {
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.content-descripcion-proyecto {
+    height: 150px;
+    text-align: center;
+    border: white 2px solid;
+    margin: .5em 2.5em 2em 2.5em;
+}
+
+.descripcion-proyecto {
+    width: auto;
+    height: 100px;
+    margin: 0;
+    padding: 1em;
+    text-align: justify;
+}
+
+.sm {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 1.8em;
+    margin-right: 1em;
+    transition: width .8s height .8s;
+}
+
+.sm:hover,
+.sm:focus {
+    width: 60px;
+    height: 60px;
+    box-shadow: -4px 5px 5px gray;
+}
+
+.imagen-proyecto {
+    position: relative;
+    width: 240px;
+    height: 200px;
+    border: solid black 2px;
+}
+
+#logo-el {
+    display: inline;
+    font-family: sans-serif;
+    font-size: 1.6em;
+    letter-spacing: .18em;
+    color: black;
+}
+
+.contacto-footer {
+    font-size: .8em;
+    display: inline;
+    padding: .5em;
+    margin: .5em;
+    text-align: center;
+}
+
+footer {
+    width: auto;
+    margin: auto;
+    margin-top: 1.4em;
+    margin-bottom: .8em;
+    text-align: center;
+    display: block;
+}
+
+.logo-cv {
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    display: inline;
+    margin: 0;
+    margin-left: 8em;
+    margin-top: -.7em;
+    border-radius: 3px 14.5px 3px 3px;
+    letter-spacing: -1em;
+}
+
+.warning-content {
+    margin-left: 20em;
+    display: block;
+    width: 150px;
+    height: 10px;
+}
+
+.warning-text {
+    margin-top: -3em;
+    color: black;
+    font-size: .8em;
+}
+
+.warning-img {
+    width: 150px;
+    height: 50px;
+}
