@@ -5,8 +5,6 @@
 // Mediante una estructura de control validar cual id se ha clicado
 // para que mediante un evento muestre los elementos HTML del servicio a presentar.
 
-var selectorService = document.getElementById("nav-servicios");
-
 // Se requiere un boton para el evento de cierre, de cerrar
 
 function activar_seccion(emergente) {

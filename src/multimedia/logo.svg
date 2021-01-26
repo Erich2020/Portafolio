@@ -1,0 +1,13 @@
+<svg  version="1.1"
+     baseProfile="full"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+  <text x="85" y ="124" font-size ="30" Text-anchor="bold" fill="crimson" stroke-width="3" stroke="crimson">&#47;</text>
+  <text x="93" y ="118" font-size ="25" Text-anchor="bold" fill="crimson" stroke-width="3" stroke="crimson">_</text>
+  <text x="114" y ="121" rotate="-21" font-size ="30" Text-anchor="bold" fill="crimson" stroke-width="3" stroke="crimson">&#62;</text>
+  <text x="118" y ="133" rotate="-21" font-size ="30" Text-anchor="bold" fill="crimson" stroke-width="3" stroke="crimson">&#60;</text>
+  <text x="90" y ="95" font-size ="15" Text-anchor="bold" fill="royalblue" stroke-width="2" stroke="royalblue" >Erich</text>
+ <!--  <text x="136" y ="125" font-size ="40" Text-anchor="bold" fill="royalblue" stroke-width="2" stroke="royalblue">h</text> 
+   <text x="10" y ="125" font-size ="60" Text-anchor="bold" fill="royalblue" stroke-width="2" stroke="royalblue" >E</text> 
+   <text x="50" y ="125" font-size ="40" Text-anchor="bold" fill="royalblue" stroke-width="1" stroke="royalblue" >R</text> 
+ --> </svg>

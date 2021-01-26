@@ -113,7 +113,7 @@ body {
     position: relative;
     display: block;
     text-align: center;
-    background-color: RGB(0.26.50.24);
+    background-color: whitesmoke;
     font-family: "AvantGarde", serif;
 }
 
@@ -157,7 +157,7 @@ body {
 .contacto-footer:focus {
     background-color: white;
     /*rgb(159, 209, 236, 186)*/
-    color: RGB(0.26.50.24);
+    color: rgb(194, 78, 97, 128);
     box-shadow: 5px 5px 5px gray;
 }
 
@@ -166,13 +166,14 @@ body {
     color: RGB(0.26.50.24);
     font-size: 1.3em;
     position: relative;
+    cursor: pointer;
 }
 
 a:link,
 a:visited,
 a:active {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 1.2em;
     padding: auto;
 }
@@ -193,9 +194,8 @@ a:active {
 #h1-nombre {
     font-size: calc(1em + 6vw);
     text-align: center;
-    color: white;
-    text-shadow: rgba(65, 105, 225, 0.80);
-    -webkit-text-stroke: rgb(159, 209, 236, .8) 2px;
+    color: black;
+    -webkit-text-stroke: royalblue 2px;
 }
 
 #h1-saludo,
@@ -209,19 +209,20 @@ a:active {
 #h3-giro {
     margin: 0;
     color: rgb(194, 78, 97, 128);
-    font-size: calc (1.5em + 2vw);
+    font-size: calc(1em + 1.5vw);
     text-decoration: underline;
 }
 
 #h3-vision {
-    margin: 0;
+    margin: 1vw;
     color: rgb(194, 78, 97, 128);
-    font-size: calc (1.5em + 2vw);
+    font-size: calc(1em + 1.5vw);
 }
 
 #h2-titulo {
     color: royalblue;
-    font-size: calc (1.8em + 3vw);
+    margin: 1vw;
+    font-size: calc(1em + 2vw);
     letter-spacing: .3em;
 }
 
@@ -230,11 +231,12 @@ a:active {
     width: 80vw;
     height: 640px;
     position: fixed;
-    background-color: rgba(65, 105, 225, 0.80);
+    background-color: rgba(255, 255, 255, 0.61);
     margin: 3em;
     z-index: 100;
     overflow: scroll;
     animation: ejemplo 2s ease-in-out;
+    border-radius: 3%;
 }
 
 @keyframes ejemplo {
@@ -284,15 +286,16 @@ a:active {
 .cerrar-seccion {
     width: 80px;
     height: 25px;
-    background-color: white;
+    background-color: #4593e2;
     position: fixed;
+    border-radius: 10%;
 }
 
 .cerrar-seccion:hover,
 .cerrar-seccion:focus {
     cursor: pointer;
-    background-color: black;
-    color: white;
+    background-color: red;
+    color: black;
 }
 
 .nombre-proyecto {
@@ -327,8 +330,9 @@ a:active {
 .content-descripcion-proyecto {
     height: 150px;
     text-align: center;
-    border: white 2px solid;
+    border: royalblue 2px solid;
     margin: .5em 2.5em 2em 2.5em;
+    border-radius: 15px;
 }
 
 .descripcion-proyecto {
@@ -385,6 +389,7 @@ footer {
     margin-bottom: .8em;
     text-align: center;
     display: block;
+    color: black;
 }
 
 .logo-cv {
@@ -393,10 +398,14 @@ footer {
     position: absolute;
     display: inline;
     margin: 0;
-    margin-left: 8em;
-    margin-top: -.7em;
+    margin-left: 25%;
     border-radius: 3px 14.5px 3px 3px;
     letter-spacing: -1em;
+}
+
+.logo-cv:hover,
+.logo-cv:focus {
+    box-shadow: -4px 5px 5px gray;
 }
 
 .warning-content {
