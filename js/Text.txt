@@ -1,0 +1,61 @@
+El intérprete es una extensión de la lengua de señas del Sordo IELS
+Iels-App
+Web-App.
+Mobile App native.
+Hibrid Mobile App.
+
+Se requiere un interprete del lenguaje de señas, implementando tecnologia de AI 
+en su caso de realiadad Aumentada que permita identificar las expresiones Kinesicas
+de la persona que se expresa en señas.
+
+Limitaciones del software
+
+Límitaciones del Hardware.
+
+Herramientas de interpretacion Neuro Linguistica
+GPT3
+speech to text en 2 lineas 
+https://cloud.google.com/speech-to-text
+
+Herramientas de interpretacion Motion Capture por AI
+ captura de movimiento o motion capture MOCAP
+ http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0188-95322016000200149
+https://www.recercat.cat/bitstream/handle/2072/212584/PFC_OriolLopezContreras.pdf?sequence=1
+
+Captura de movimientos en vídeo o Markerless. Esta técnica no 
+requiere de marcadores, en su lugar se basa en el software para
+ rastrear el movimiento de los objetos o actores. Un buen ejemplo
+  de esta técnica es Microsoft Kinect que utiliza sin marcadores 
+  en tiempo real de captura de movimiento.
+
+Captura de movimientos inercial. Esta técnica no requiere cámaras 
+excepto como herramienta de localización. El sujeto lleva los 
+sensores y los datos de dichos sensores se transmiten de forma 
+inalámbrica a un ordenador.
+
+Sistema de Captura de movimiento, Vicon o Kinect
+Brekel Kinect Se usa el NITE de PrimeSense junto a OpenNI, ambos softwares usados conjuntamente,
+para reconocer al usuario y así hacer la construcción del esqueleto
+https://structure.io/openni  https://developer.structure.io/sdk
+https://brekel.com/  https://brekel.com/brekel-body-v3/
+https://github.com/PrimeSense/Sensor 
+
+API Camera2 
+uDepth google
+https://ccc.inaoep.mx/~esucar/Clases-MetIA/MetIA-19.pdf
+Reconocimiento de gestos mediante IA
+Basado en características - globales
+Basado en características - locales
+Basado en una representación estructural
+Basado en alineamiento - contorno
+https://www.neosentec.com/reconocimiento-gestos-aprendizaje-automatico/
+https://www.europeanvalley.es/noticias/reconocimiento-de-signos/
+https://noticiasdelaciencia.com/art/39171/inteligencia-artificial-para-reconocer-los-gestos-de-las-manos#:~:text=Cient%C3%ADficos%20de%20la%20Universidad%20Tecnol%C3%B3gica,delgada%20con%20visi%C3%B3n%20por%20computadora.
+
+analisis de video con inteligencia artificial
+
+https://cloud.google.com/video-intelligence?hl=es-419
+
+
+https://www.coursera.org/learn/introduction-tensorflow/supplement/QAMJd/try-it-for-yourself
+https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb

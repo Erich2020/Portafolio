@@ -16,12 +16,8 @@
         display: inline-block;
     }
     .tarjeta-proyectos {
-        max-width: 160px;
-        max-height: 120px;
-        position: relative;
-        display: inline-block;
-        padding-top: .05em;
-        padding-bottom: 1em;
+        max-width: 165px;
+        max-height: 135px;
     }
     #proyectos-seccion {
         font-size-adjust: 1em;
@@ -113,7 +109,7 @@ body {
     position: relative;
     display: block;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(233, 233, 233);
     font-family: "AvantGarde", serif;
 }
 
@@ -141,7 +137,8 @@ body {
 }
 
 .tarjeta-proyectos {
-    width: 240px;
+    width: 245px;
+    height: auto;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -149,16 +146,19 @@ body {
     padding-bottom: 1.5em;
     transition: background-color 1s;
     color: royalblue;
+    border-radius: 10px;
+    background-color: whitesmoke;
 }
 
 .tarjeta-proyectos:hover,
 .tarjeta-proyectos:focus,
 .contacto-footer:hover,
 .contacto-footer:focus {
-    background-color: white;
+    background-color: royalblue;
     /*rgb(159, 209, 236, 186)*/
-    color: rgb(194, 78, 97, 128);
-    box-shadow: 5px 5px 5px gray;
+    color: white;
+    box-shadow: 0px 5px 5px 5px rgba(128, 128, 128, 0.623);
+    z-index: 100;
 }
 
 #proyectos-seccion {
@@ -364,6 +364,7 @@ a:active {
     width: 240px;
     height: 200px;
     border: solid black 2px;
+    border-radius: 5px;
 }
 
 #logo-el {
@@ -380,6 +381,7 @@ a:active {
     padding: .5em;
     margin: .5em;
     text-align: center;
+    border-radius: 10px;
 }
 
 footer {
