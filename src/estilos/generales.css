@@ -109,7 +109,7 @@ body {
     position: relative;
     display: block;
     text-align: center;
-    background-color: rgb(233, 233, 233);
+    background-color: white;
     font-family: "AvantGarde", serif;
 }
 
@@ -215,7 +215,7 @@ a:active {
 
 #h3-vision {
     margin: 1vw;
-    color: rgb(194, 78, 97, 128);
+    color: black;
     font-size: calc(1em + 1.5vw);
 }
 
@@ -228,8 +228,8 @@ a:active {
 
 .seccion-proyectos {
     display: none;
-    width: 80vw;
-    height: 640px;
+    width: 90%;
+    height: 95%;
     position: fixed;
     background-color: rgba(255, 255, 255, 0.61);
     margin: 3em;
@@ -244,7 +244,7 @@ a:active {
         width: 0;
     }
     to {
-        width: 80%;
+        width: 90%;
         ;
     }
 }
@@ -342,7 +342,10 @@ a:active {
     padding: 1em;
     text-align: justify;
 }
-
+.lista-Descripcion{
+    font-size: small;
+    text-align: left;
+}
 .sm {
     width: 50px;
     height: 50px;
